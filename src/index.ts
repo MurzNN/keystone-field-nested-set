@@ -198,8 +198,7 @@ export const nestedSet =
     const commonConfig = {
       ...config,
       isIndexed: 'unique',
-      getAdminMeta: (
-      ): Parameters<typeof import('./views').controller>[0]['fieldMeta'] => {
+      getAdminMeta: (): Parameters<typeof import('./views').controller>[0]['fieldMeta'] => {
         if (!listTypes) {
           throw new Error(
             `The ref [${listTypes}] on relationship [${meta.listKey}.${meta.fieldKey}] is invalid`
@@ -331,7 +330,7 @@ export const nestedSet =
           return { ...value };
         },
       }),
-      views: 'keystone-field-nested-set/views',
+      views: '@murz/keystone-field-nested-set/views',
       unreferencedConcreteInterfaceImplementaetions: [NestedSetFieldOutput],
     });
   };

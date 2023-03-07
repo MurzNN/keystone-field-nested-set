@@ -1037,7 +1037,7 @@ const nestedSet = function () {
           return _objectSpread({}, value);
         }
       }),
-      views: 'keystone-field-nested-set/views',
+      views: '@murz/keystone-field-nested-set/views',
       unreferencedConcreteInterfaceImplementaetions: [NestedSetFieldOutput]
     }));
   };
