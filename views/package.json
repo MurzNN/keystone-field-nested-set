@@ -1,4 +1,4 @@
 {
-  "main": "dist/murz-keystone-field-nested-set-views.cjs.js",
-  "module": "dist/murz-keystone-field-nested-set-views.esm.js"
+  "main": "dist/keystone-field-nested-set-views.cjs.js",
+  "module": "dist/keystone-field-nested-set-views.esm.js"
 }
